@@ -72,7 +72,7 @@ const CRUD = () => {
       </span>
       <span>
         <button className="dbtn" onClick={() => handleDelete(user.id)}>Delete</button>
-        <button onClick={() => handleEdit(user)}>Edit</button>
+        <button className='editbtn' onClick={() => handleEdit(user)}>Edit</button>
       </span>
     </div>
   ));

@@ -34,6 +34,7 @@ form{
 }
 
 .card{
+
     img{
         width: 220px;
         height: 150px;
@@ -42,9 +43,11 @@ form{
     width: 240px;
     padding: 10px;
     height: 280px;
-    border: 1px solid black;
+    border: 1px solid rgb(188, 182, 182);
     align-items: center;
     justify-content: center;
+    border-radius: 6px;
+    box-shadow: px 4px 16px 0 rgb(188, 182, 182);
     span{
         display: flex;
         gap: 10px;
@@ -68,18 +71,9 @@ button{
 }
 
 
-
-
-// .payment {
-//     padding: 20px;
-//     background-color: #FFFFFF;
-//     width: 1021.5px;
-//     height: 792.84px;
-//     display: flex;
-//     flex-direction: column;
-//     justify-content: center;
-//     align-items: center;
-//     margin: 0 auto;
-//     overflow: auto;
-//   }
-  
+.editbtn{
+    padding: 5px 30px;
+    background-color: yellow;
+    border: 1px solid yellow;
+    border-radius: 6px;
+}

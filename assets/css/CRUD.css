@@ -48,13 +48,16 @@ form button {
   width: 240px;
   padding: 10px;
   height: 280px;
-  border: 1px solid black;
+  border: 1px solid rgb(188, 182, 182);
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  border-radius: 6px;
+  -webkit-box-shadow: px 4px 16px 0 rgb(188, 182, 182);
+          box-shadow: px 4px 16px 0 rgb(188, 182, 182);
 }
 .card img {
   width: 220px;
@@ -87,4 +90,11 @@ form button {
 
 button {
   cursor: pointer;
+}
+
+.editbtn {
+  padding: 5px 30px;
+  background-color: yellow;
+  border: 1px solid yellow;
+  border-radius: 6px;
 }
