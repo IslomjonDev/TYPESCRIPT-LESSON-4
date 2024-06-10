@@ -1,0 +1,85 @@
+
+
+
+.container{
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+    span{
+        display: flex;
+        flex-direction: column;
+        width: 500px;
+        input{
+            padding: 15px;
+            outline: none;
+            border-radius: 6px;
+        }
+    }
+    button{
+        padding: 15px 40px;
+        background-color: dodgerblue;
+        color: #FFFFFF;
+        border: 1px solid dodgerblue;
+        border-radius: 6px;
+    }
+}
+
+.card{
+    img{
+        width: 220px;
+        height: 150px;
+        object-fit: cover;
+    }
+    width: 240px;
+    padding: 10px;
+    height: 280px;
+    border: 1px solid black;
+    align-items: center;
+    justify-content: center;
+    span{
+        display: flex;
+        gap: 10px;
+    }
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    .dbtn{
+        background-color: red;
+        color: #FFFFFF;
+        border: 1px solid red;
+        border-radius: 6px;
+        padding: 10px 20px;
+    }
+}
+
+button{
+    cursor: pointer;
+}
+
+
+
+
+// .payment {
+//     padding: 20px;
+//     background-color: #FFFFFF;
+//     width: 1021.5px;
+//     height: 792.84px;
+//     display: flex;
+//     flex-direction: column;
+//     justify-content: center;
+//     align-items: center;
+//     margin: 0 auto;
+//     overflow: auto;
+//   }
+  
